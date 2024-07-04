@@ -30,7 +30,7 @@ The Azure Adapter is a small JavaSrcript library that will run as a serverless A
 
 Due to ongoing issues with unscrupulous providers taking advantage of our intellectual property without permission, the source code and installation guide is currently available on request from Queue-Fair for new and existing clients.
 
-It is adapted from our cross-platform Node Adapter - there are changes to the QueueFairService class, which is the one that usually contains platform-specific code, and also some small changes to the QueueFairAdapter class to use the Azure native httpRequest and crypto functions.  Unlike our https://github.com/queue-fair/node adapter, all the classes are defined in the one `main.js` file, and the QueueFairConfig class is replaced with a constant object.  It all works the same way.
+It is adapted from our cross-platform Node Adapter - there are changes to the QueueFairService class, which is the one that usually contains platform-specific code, and also some small changes to the QueueFairAdapter class.   It all works the same way.
 
 The Adapter periodically checks to see if you have changed your Queue-Fair settings in the Portal, and caches the result in memory, but other than that if the visitor is requesting a page that does not match any queue's Activation Rules, it does nothing, and Azure will return a (possibly cached) copy of the page from your origin server(s).
 
