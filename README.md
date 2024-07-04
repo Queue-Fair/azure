@@ -1,5 +1,5 @@
 ---
-## Queue-Fair Free Azure Virtual Waiting Room Network-Edge Adapter README & Installation Guide
+## Queue-Fair Free Azure Virtual Waiting Room Network-Level Adapter README & Installation Guide
 
 Queue-Fair can be added to any web server easily in minutes, and is a great way to get a free Azure virtual waiting room, as Queue-Fair offers its own Free Tier, and the Adapter only users Azure free tier features.  You will need a Queue-Fair account - please visit https://queue-fair.com/free-trial if you don't already have one.  You should also have received our Technical Guide.  To find out more about how a Virtual Waiting Room protects your site or app from traffic spikes, see https://queue-fair.com/virtual-waiting-room
 
@@ -21,7 +21,7 @@ You shoud now see the Adapter tag when you perform View Source after refreshing 
 
 And you're done!  Your queues and activation rules can now be configured in the Queue-Fair Portal.
 
-## Azure Network-Edge Adapter
+## Azure Network-Leve Adapter
 Using the Azure Adapter means that your Azure implementation communicates directly with the Queue-Fair Queue Server Cluster, rather than your visitors' browsers or your origin server.
 
 This can introduce a dependency between our systems, which is why most customers prefer the Client-Side Adapter.  See Section 10 of the Technical Guide for help regarding which integration method is most suitable for you.
